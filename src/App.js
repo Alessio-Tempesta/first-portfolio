@@ -1,10 +1,10 @@
+import NavBar from "./components/NavBar";
+
 
 function App() {
   return (
     <div>
-      <h1 className="text-4xl font-bold underline font-signature">
-      Hello world!
-    </h1>
+    <NavBar />
     </div>
   );
 }
