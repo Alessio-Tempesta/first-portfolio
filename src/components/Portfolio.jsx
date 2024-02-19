@@ -4,11 +4,13 @@ import { FaArrowRight } from 'react-icons/fa';
 
 const Portfolio = () => {
   const [hovered, setHovered] = useState(false);
+  
 
   return (
     <div className='text-4xl h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white'>
       <h1 className='text-white text-5xl text-center font-bold'>
         Portfolio
+        
       </h1>
       <p className='text-white underline text-center my-3'>Alcuni miei progetti su GitHub</p>
       <div className="flex justify-center"> {/* Aggiungi questo div per centrare il bottone */}

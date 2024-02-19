@@ -1,6 +1,7 @@
 import React from 'react'
 import FotoProfilo from "../assets/foto-reggiaDiCaserta_me-removebg-preview.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from 'react-scroll';
 
 const Home = () => {
   return (
@@ -16,13 +17,17 @@ const Home = () => {
           </p>
           
           <div>
-            <button className="grouptext-white w-fit px-6 py-3 my-5 flex items-center rounded-md bg-gradient-to-r from-purple-500 to-blue-700 cursor-grab">
+            <Link
+            to="github-section" 
+            smooth
+            duration={500}
+            className="grouptext-white w-fit px-6 py-3 my-5 flex items-center rounded-md bg-gradient-to-r from-purple-500 to-blue-700 cursor-grab">
               Portfolio
               <span className="group hover:rotate-90 duration-300">
                 <MdOutlineKeyboardArrowRight size={25}
                 className='ml-1' />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
 
