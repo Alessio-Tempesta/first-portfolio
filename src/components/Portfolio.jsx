@@ -8,7 +8,7 @@ const Portfolio = () => {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobileFirst(window.innerWidth <= 476); // Determina se la larghezza della finestra è inferiore o uguale a 768px
+      setIsMobileFirst(window.innerWidth <= 350); // Determina se la larghezza della finestra è inferiore o uguale a 768px
     };
 
     handleResize(); // Imposta lo stato iniziale al caricamento della pagina
