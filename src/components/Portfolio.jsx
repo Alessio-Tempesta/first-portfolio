@@ -14,7 +14,7 @@ const Portfolio = () => {
       </h1>
       <p className='text-white underline text-center my-3'>Alcuni miei progetti su GitHub</p>
       <div className="flex justify-center"> {/* Aggiungi questo div per centrare il bottone */}
-        <a href='#github-section'>
+        <a href='portfolio'>
           <button
             className={`flex items-center text-white px-6 py-3 my-5 rounded-md bg-gradient-to-r from-purple-500 to-blue-700 cursor-pointer ${hovered ? 'bg-blue-600' : ''}`}
             onMouseEnter={() => setHovered(true)}
@@ -27,7 +27,7 @@ const Portfolio = () => {
           </button>
         </a>
       </div>
-      <div id='github-section'>
+      <div id='portfolio'>
         <a href='https://github.com/Alessio-Tempesta'>
           <img
             src={GitHub}
