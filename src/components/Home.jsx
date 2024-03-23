@@ -9,11 +9,11 @@ const Home = () => {
     name= "home"
     className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 sm:flex-row">
+        <div className="max-w-full sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl mx-auto flex flex-col items-center justify-center h-full px-4 sm:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-3xl sm:text-7xl font-bold text-white">Sono un Front-End Developer</h2>
-          <p className="text-purple-500 py-4 max-w-md">Ciao! Sono Alessio Tempesta, un appassionato sviluppatore front-end con una fervida passione per l'innovazione e il design creativo.Ho acquisito competenze avanzate nel campo dello sviluppo web e della progettazione UI/UX.
-            Le teconlogie che mi piacciono di più sono React, Angular e Tailwind
+          <h2 className="text-2xl text-center sm:text-5xl font-bold text-white">Sono un Front-End Developer</h2>
+          <p className="text-right ml-10 text-purple-500 py-4 max-w-md">Ciao! Sono Alessio Tempesta,<br /> un appassionato sviluppatore front-end con una fervida passione per l'innovazione e il design creativo. <br /> Le teconlogie che mi piacciono di più sono:
+          Html, Css, Javascript, React, Angular e Tailwind.
           </p>
           
           <div>

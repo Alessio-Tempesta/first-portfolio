@@ -8,13 +8,13 @@ const About = () => {
     >
         <div className='max-w-screen-lg p-4 mx-auto flex-col jusitfy-center w-full h-full'>
             <div className='pb-8'>
-            <p className='text-4xl font-bold inline border-b-4 border-gray-500'>
+            <p className='text-4xl font-bold inline border-gray-500'>
                 About
                 </p>
             </div>
 
-            <p className='text-xl mt-20 underline'>
-                <h1 className='text-purple-500 font-bold text-5xl'>Chi sono:</h1>
+            <p className='text-1xl font-bold mt-20'>
+                <h1 className='text-purple-500 font-bold text-6xl'>Chi sono:</h1>
                 <br />
             Ciao, sono Tempesta Alessio, uno sviluppatore front-end appassionato con una solida esperienza in tecnologie web moderne.
             <br />
