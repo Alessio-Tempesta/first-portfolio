@@ -16,11 +16,11 @@ const About = () => {
             <p className='text-1xl font-bold mt-20'>
                 <h1 className='text-purple-500 font-bold text-6xl'>Chi sono:</h1>
                 <br />
-            Ciao, sono Tempesta Alessio, uno sviluppatore front-end appassionato con una solida esperienza in tecnologie web moderne.
-            <br />
-            Sono appassionato di creare interfacce utente esteticamente piacevoli e funzionali che offrono un'esperienza utente straordinaria. Mi piace esplorare nuove tecnologie e approcci per migliorare continuamente le mie capacità e rimanere aggiornato sulle ultime tendenze nel mondo dello sviluppo front-end.
+            Ciao, sono Tempesta Alessio, uno sviluppatore aspirante front-end appassionato.
             <br />
             Puoi aspettarti da me un impegno totale nel consegnare prodotti di alta qualità che soddisfino le esigenze dei clienti e superino le aspettative degli utenti. Sono un team player con una forte attenzione ai dettagli e una passione per la risoluzione di problemi complessi.
+            <br />
+            Le tecnologie che mi piacciono e uso di più sono : HTML, CSS, Javascript, Bootstrap, React, Angular, Tailwind, Node.JS
             </p>
         </div>
     </div>

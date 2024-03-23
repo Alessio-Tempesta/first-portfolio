@@ -20,6 +20,10 @@ const Portfolio = () => {
     };
   }, []);
 
+  const handleClick = () => {
+    window.location.href = 'https://github.com/Alessio-Tempesta'; // Cambia l'URL con il tuo profilo GitHub
+  };
+
   return (
     <div className={`text-4xl h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white flex flex-col justify-center items-center ${isMobileFirst ? 'py-16' : ''}`}>
       <h1 className='text-white text-5xl text-center font-bold'>
@@ -27,18 +31,17 @@ const Portfolio = () => {
       </h1>
       <p className='text-white text-center my-3'>Alcuni miei progetti su GitHub</p>
       <div className={`${isMobileFirst ? '' : 'flex justify-center'} mb-8`}>
-        <a href='portfolio'>
-          <button
-            className={`flex items-center text-white px-6 py-3 rounded-md bg-gradient-to-r from-purple-500 to-blue-700 cursor-pointer ${hovered ? 'bg-blue-600' : ''}`}
-            onMouseEnter={() => setHovered(true)}
-            onMouseLeave={() => setHovered(false)}
-          >
-            Vai giù
-            <span className="group hover:rotate-90 duration-300">
-              <FaArrowRight size={25} className='ml-1' />
-            </span>
-          </button>
-        </a>
+        <button
+          className={`flex items-center text-white px-6 py-3 rounded-md bg-gradient-to-r from-purple-500 to-blue-700 cursor-pointer ${hovered ? 'bg-blue-600' : ''}`}
+          onClick={handleClick}
+          onMouseEnter={() => setHovered(false)}
+          onMouseLeave={() => setHovered(false)}
+        >
+          Clicca
+          <span className="group hover:rotate-90 duration-300">
+            <FaArrowRight size={25} className='ml-1' />
+          </span>
+        </button>
       </div>
       <div id='portfolio'>
         <a href='https://github.com/Alessio-Tempesta'>
